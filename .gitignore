@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Model checkpoints & artifacts (too large for GitHub)
+*.pt
+*.pth
+*.onnx
+artifacts/
+models/
+
+# Frontend
+frontend/node_modules/
+frontend/.vite-temp/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+
+# Test / temp
+sample_images/
+*.log

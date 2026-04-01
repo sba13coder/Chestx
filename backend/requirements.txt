@@ -1,0 +1,7 @@
+flask>=3.0
+flask-cors
+torch>=2.0
+torchvision>=0.15
+Pillow
+numpy
+matplotlib
